@@ -1,8 +1,5 @@
 {
   "name": "tarot-mvp",
   "private": true,
-  "type": "module",
-  "dependencies": {
-    "openai": "^4.0.0"
-  }
+  "type": "module"
 }
