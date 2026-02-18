@@ -6,6 +6,11 @@
   <title>Tarot MVP</title>
 
   <style>
+    html, body {
+      overflow-x: hidden;
+    }
+    * { box-sizing: border-box; }
+    html, body { overflow-x: hidden; }
     body{
       margin:0;
       font-family: system-ui, -apple-system, Arial, sans-serif;
@@ -60,19 +65,20 @@ textarea:focus{
       margin-top:20px;
       display:grid;
       grid-template-columns: repeat(2, 1fr);
-      gap:10px;
+      gap:8px;
     }
 
     .card{
-      min-height:90px;
+      min-height:75px;
       border-radius:14px;
       display:flex;
       align-items:center;
       justify-content:center;
       text-align:center;
-      padding:10px;
+      padding:8px;
       cursor:pointer;
       border:1px solid #333;
+      font-size:14px;
       transition:0.1s;
     }
 
