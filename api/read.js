@@ -14,20 +14,20 @@ export default async function handler(req, res) {
 Pergunta:
 ${question}
 
-Cartas selecionadas:
+Cartas:
 1) ${c1} (Passado/Base)
 2) ${c2} (Presente/Desafio)
 3) ${c3} (Tendência/Conselho)
 
-Interpretação (placeholder):
-- ${c1}: indica o contexto e a energia que trouxe você até aqui.
-- ${c2}: aponta o ponto de tensão atual e o que precisa de atenção.
-- ${c3}: sugere uma direção prática para os próximos passos.
+Interpretação simbólica:
+- ${c1} representa a energia que te trouxe até aqui.
+- ${c2} mostra o ponto de atenção atual.
+- ${c3} indica uma possível direção.
 
-Recomendações:
-1) Escreva em 1 frase o que você realmente quer resolver.
-2) Escolha uma ação pequena para fazer ainda hoje.
-3) Revise em 7 dias: o que mudou e o que permanece.`;
+Reflexão:
+1) O que você realmente quer resolver?
+2) Qual pequena ação pode começar hoje?
+3) O que precisa ser ajustado?`;
 
   return res.status(200).json({ reading });
 }
